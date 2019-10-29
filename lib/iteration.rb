@@ -44,7 +44,7 @@ def total_even_pairs(src)
   total = []
   while row_index < src.count do
     if (src[row_index][0] + src[row_index][1]) % 2 == 0
-      larger_number.push(src[row_index][0])
+      total += src[row_index][0] + src[row_index][1]
     else
       larger_number.push(src[row_index][1])
     end
