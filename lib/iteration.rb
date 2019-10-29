@@ -9,6 +9,7 @@ def join_ingredients(src)
   row_index = 0
   while row_index < src.count do
     p src
+    row_index += 1
   end
 end
 
